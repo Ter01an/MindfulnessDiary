@@ -1,0 +1,77 @@
+
+.TechniqueWidget {
+    display: block;
+    width: 20em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 1.25em;
+    padding: 1em;
+    transition: all .3s;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    position: relative;
+}
+
+.TechniqueWidget__head {
+    display: flex;
+}
+
+.TechniqueWidget__achievements {
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.25em;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.TechniqueWidget__achievements span {
+    font-size: 3.125em;
+    line-height: 1;
+    display: block;
+}
+
+.TechniqueWidget__fade {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.74) 100%);
+    transition: all .3s;
+    opacity: 0;
+}
+
+.TechniqueWidget:hover .TechniqueWidget__fade,
+.TechniqueWidget:focus .TechniqueWidget__fade {
+    opacity: 1;
+}
+
+.TechniqueWidget img {
+    height: 8.625em;
+    margin-bottom: 1.625em;
+    position: relative;
+    z-index: 1;
+}
+
+.TechniqueWidget__title {
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-bottom: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+.TechniqueWidget__subtitle {
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.3em;
+    opacity: .56;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+}

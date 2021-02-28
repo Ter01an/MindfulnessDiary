@@ -1,0 +1,28 @@
+
+.SideBarButton {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1em; /* 16px */
+    padding: 0.65em 1.5em; /* 10px 24px */
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    border-radius: 2.5em; /* 40px */
+    transition: all .3s;
+    text-decoration: none;
+    -webkit-appearance: none;
+    background: none;
+    outline: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.SideBarButton:hover,
+.SideBarButton:focus {
+    border-color: #0FA8E0;
+}
+
+.SideBarButton img {
+    width: 3em; /* 48px */
+    height: 3em; /* 48px */
+    margin-right: 1em; /* 16px */
+}

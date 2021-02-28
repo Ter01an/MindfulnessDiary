@@ -1,0 +1,18 @@
+
+.SideBar {
+}
+
+.SideBar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.SideBar ul li {
+    margin-bottom: 0.8em;
+}
+
+.SideBar ul li > button,
+.SideBar ul li > a {
+    width: 100%;
+}

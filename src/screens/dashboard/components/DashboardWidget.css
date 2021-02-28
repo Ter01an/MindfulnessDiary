@@ -1,0 +1,52 @@
+
+.DashboardWidget {
+    display: block;
+    width: 20em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 1.25em;
+    padding: 1em;
+    transition: all .3s;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+.DashboardWidget:hover,
+.DashboardWidget:focus {
+    background: rgba(15, 168, 224, 0.6);
+    border-color: #0FA8E0;
+}
+
+.DashboardWidget img {
+    height: 8.625em;
+    margin-bottom: 1.625em;
+}
+
+.DashboardWidget__title {
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-bottom: 4px;
+}
+
+.DashboardWidget__subtitle {
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.3em;
+    opacity: .56;
+    margin-bottom: 12px;
+}
+
+.DashboardWidget__text {
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.3em;
+}
+
+.DashboardWidget--onboard {
+    position: relative;
+    z-index: 30;
+}

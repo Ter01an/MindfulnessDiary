@@ -1,0 +1,19 @@
+
+.BaseLayout {
+    display: flex;
+}
+
+.BaseLayout__sidebar {
+    width: 20em; /* 320px */
+    padding-left: 4.5em; /* 72px */
+    padding-right: 2em; /* 32px */
+    padding-top: 7em;
+    min-height: 100vh;
+}
+
+.BaseLayout__content {
+    padding-left: 3em;
+    padding-top: 7em;
+    position: relative;
+    min-height: 100vh;
+}
